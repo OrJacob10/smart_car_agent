@@ -18,7 +18,6 @@ public class Car {
     private int id;
 
     private String manufacturer;
-    private String model;
     private int year;
     private String location;
     private double price;
