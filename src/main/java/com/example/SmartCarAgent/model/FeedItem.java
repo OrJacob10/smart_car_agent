@@ -10,6 +10,7 @@ import lombok.ToString;
 public class FeedItem {
 
     private String itemId;
+    private String manufacturer;
     private String model;
     private int year;
     private int hand;
@@ -17,5 +18,13 @@ public class FeedItem {
     private int price;
     private String link;
 
-
+    public FeedItem(String itemId, String model, int year, int hand, int engineSize, int price) {
+        this.itemId = itemId;
+        this.model = model;
+        this.year = year;
+        this.hand = hand;
+        this.engineSize = engineSize;
+        this.price = price;
+        this.link = "https://www.yad2.co.il/item/" + this.itemId;
+    }
 }
