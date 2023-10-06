@@ -16,7 +16,7 @@ public class SearchRequest implements Serializable {
     private String searchId;
 
     private String manufacturer;
-    private double minPrice;
-    private double maxPrice;
+    private int minPrice;
+    private int maxPrice;
     private String location;
 }

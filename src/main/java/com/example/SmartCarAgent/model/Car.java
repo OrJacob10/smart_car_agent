@@ -1,5 +1,6 @@
 package com.example.SmartCarAgent.model;
 
+import com.example.SmartCarAgent.enums.Location;
 import lombok.*;
 
 import javax.persistence.*;
@@ -19,8 +20,8 @@ public class Car {
 
     private String manufacturer;
     private int year;
-    private String location;
-    private double price;
+    private Location location;
+    private int price;
     private int km;
     private String transmissionType;
     private String color;
